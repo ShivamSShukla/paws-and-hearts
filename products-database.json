@@ -1,0 +1,174 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Premium Cat Tower with Scratching Posts - 6 Levels",
+      "category": "cat",
+      "type": "accessories",
+      "price": 89.99,
+      "rating": 4.8,
+      "reviews": 2547,
+      "image": "https://via.placeholder.com/300x250/FFE5D9/FF8A5B?text=Cat+Tower",
+      "asin": "B08XYZ1234",
+      "trending": true,
+      "bestseller": true,
+      "commission": 3.60,
+      "description": "Multi-level cat tower with cozy condos, scratching posts, and dangling toys. Perfect for active cats!",
+      "features": [
+        "6 spacious levels",
+        "Multiple scratching posts",
+        "Plush sleeping areas",
+        "Sturdy construction"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Interactive Dog Puzzle Toy - Slow Feeder Bowl",
+      "category": "dog",
+      "type": "toys",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviews": 1823,
+      "image": "https://via.placeholder.com/300x250/D4F1F4/6BC4D9?text=Dog+Toy",
+      "asin": "B08ABC5678",
+      "trending": true,
+      "bestseller": true,
+      "commission": 1.00,
+      "description": "Keeps dogs mentally stimulated and slows down fast eaters. Great for all breeds!",
+      "features": [
+        "Mental stimulation",
+        "Reduces bloating",
+        "Non-slip base",
+        "Easy to clean"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Automatic Cat Feeder with Camera & WiFi - 5L",
+      "category": "cat",
+      "type": "food",
+      "price": 49.99,
+      "rating": 4.6,
+      "reviews": 3201,
+      "image": "https://via.placeholder.com/300x250/FFF8F0/FFC857?text=Cat+Feeder",
+      "asin": "B08DEF9012",
+      "trending": true,
+      "bestseller": false,
+      "commission": 2.00,
+      "description": "Smart feeder with built-in camera. Schedule meals and check on your cat remotely!",
+      "features": [
+        "WiFi enabled",
+        "HD camera",
+        "Voice recording",
+        "Large 5L capacity"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Orthopedic Memory Foam Dog Bed - Large/XL",
+      "category": "dog",
+      "type": "accessories",
+      "price": 69.99,
+      "rating": 4.9,
+      "reviews": 4521,
+      "image": "https://via.placeholder.com/300x250/E8F5E9/7BC67B?text=Dog+Bed",
+      "asin": "B08GHI3456",
+      "trending": true,
+      "bestseller": true,
+      "commission": 2.80,
+      "description": "Therapeutic memory foam bed perfect for senior dogs and large breeds. Waterproof liner included.",
+      "features": [
+        "Orthopedic support",
+        "Waterproof liner",
+        "Removable cover",
+        "Non-slip bottom"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cat Water Fountain Stainless Steel - 2L Automatic",
+      "category": "cat",
+      "type": "accessories",
+      "price": 34.99,
+      "rating": 4.7,
+      "reviews": 2891,
+      "image": "https://via.placeholder.com/300x250/FFE5D9/FF8A5B?text=Water+Fountain",
+      "asin": "B08JKL7890",
+      "trending": true,
+      "bestseller": false,
+      "commission": 1.40,
+      "description": "Encourages cats to drink more water with flowing fountain design. Ultra-quiet pump.",
+      "features": [
+        "Stainless steel",
+        "Triple filtration",
+        "Ultra-quiet",
+        "2L capacity"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Heavy Duty Dog Leash - Reflective for Large Dogs",
+      "category": "dog",
+      "type": "accessories",
+      "price": 19.99,
+      "rating": 4.8,
+      "reviews": 1654,
+      "image": "https://via.placeholder.com/300x250/D4F1F4/6BC4D9?text=Dog+Leash",
+      "asin": "B08MNO1234",
+      "trending": false,
+      "bestseller": true,
+      "commission": 0.80,
+      "description": "Durable nylon leash with comfortable padded handle. Reflective stitching for night walks.",
+      "features": [
+        "Reflective threads",
+        "Padded handle",
+        "Heavy duty clip",
+        "6 feet length"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Interactive Laser Toy for Cats - Automatic",
+      "category": "cat",
+      "type": "toys",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviews": 1432,
+      "image": "https://via.placeholder.com/300x250/FFF8F0/FFC857?text=Laser+Toy",
+      "asin": "B08PQR3456",
+      "trending": true,
+      "bestseller": false,
+      "commission": 1.20,
+      "description": "Automatic laser pointer keeps cats entertained. Random patterns prevent boredom.",
+      "features": [
+        "Automatic mode",
+        "Random patterns",
+        "Timer function",
+        "Battery operated"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Dog Training Treats - Grain Free & Healthy",
+      "category": "dog",
+      "type": "food",
+      "price": 16.99,
+      "rating": 4.7,
+      "reviews": 3845,
+      "image": "https://via.placeholder.com/300x250/E8F5E9/7BC67B?text=Dog+Treats",
+      "asin": "B08STU7890",
+      "trending": false,
+      "bestseller": true,
+      "commission": 0.68,
+      "description": "Small, soft training treats made with real meat. Perfect size for positive reinforcement.",
+      "features": [
+        "Grain free",
+        "Real meat",
+        "Soft texture",
+        "Small size"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-02-09T00:00:00.000Z",
+  "totalProducts": 8
+}

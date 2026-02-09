@@ -1,0 +1,125 @@
+{
+  "totalRaised": 2847.50,
+  "mealsProvided": 1893,
+  "petsHelped": 247,
+  "purchasesMade": 89,
+  "monthlyRaised": 347.20,
+  "monthlyGoal": 500,
+  "lastUpdated": "2026-02-09T00:00:00.000Z",
+  "receipts": [
+    {
+      "id": 1707091200000,
+      "date": "2026-02-05T10:30:00.000Z",
+      "amount": 127.50,
+      "items": "Premium cat food (15kg) and dog food (20kg)",
+      "supplier": "Local Pet Supply Store",
+      "meals": 51,
+      "receiptImage": "https://via.placeholder.com/400x600/FFFFFF/000000?text=Receipt+Feb+5",
+      "verified": true
+    },
+    {
+      "id": 1706659200000,
+      "date": "2026-02-01T14:20:00.000Z",
+      "amount": 89.20,
+      "items": "Dry cat food (10kg) bulk purchase",
+      "supplier": "Wholesale Pet Supplies",
+      "meals": 36,
+      "receiptImage": "https://via.placeholder.com/400x600/FFFFFF/000000?text=Receipt+Feb+1",
+      "verified": true
+    },
+    {
+      "id": 1706227200000,
+      "date": "2026-01-28T09:15:00.000Z",
+      "amount": 56.80,
+      "items": "Dog food (10kg) and cat treats",
+      "supplier": "Local Pet Supply Store",
+      "meals": 23,
+      "receiptImage": "https://via.placeholder.com/400x600/FFFFFF/000000?text=Receipt+Jan+28",
+      "verified": true
+    },
+    {
+      "id": 1705795200000,
+      "date": "2026-01-24T16:45:00.000Z",
+      "amount": 145.30,
+      "items": "Mixed pet food supplies for street feeding",
+      "supplier": "Pet Food Warehouse",
+      "meals": 58,
+      "receiptImage": "https://via.placeholder.com/400x600/FFFFFF/000000?text=Receipt+Jan+24",
+      "verified": true
+    }
+  ],
+  "impactStories": [
+    {
+      "id": 1,
+      "date": "2026-02-05T00:00:00.000Z",
+      "title": "Fed 45 street cats in downtown area",
+      "description": "Regular feeding spot where a colony of 15+ cats gather daily. Today's meal provided by your shopping!",
+      "location": "Downtown District",
+      "image": "https://via.placeholder.com/500x400/FFE5D9/FF8A5B?text=Street+Cats+Fed",
+      "mealsProvided": 45,
+      "petsHelped": 15
+    },
+    {
+      "id": 2,
+      "date": "2026-02-01T00:00:00.000Z",
+      "title": "Riverside dog community fed",
+      "description": "Group of 12 street dogs who live near the river. They wait patiently every evening for food.",
+      "location": "Riverside Park",
+      "image": "https://via.placeholder.com/500x400/D4F1F4/6BC4D9?text=Dogs+Fed",
+      "mealsProvided": 36,
+      "petsHelped": 12
+    },
+    {
+      "id": 3,
+      "date": "2026-01-28T00:00:00.000Z",
+      "title": "Emergency food for abandoned kittens",
+      "description": "Found a litter of 5 kittens abandoned in a box. Provided immediate food and called local rescue.",
+      "location": "Industrial Area",
+      "image": "https://via.placeholder.com/500x400/FFF8F0/FFC857?text=Kittens+Rescued",
+      "mealsProvided": 23,
+      "petsHelped": 5
+    }
+  ],
+  "timeline": [
+    {
+      "date": "February 2026",
+      "title": "Reached 2,000 meals milestone",
+      "description": "Thanks to your shopping, we crossed 2,000 meals provided to street pets! This is just the beginning.",
+      "milestone": true
+    },
+    {
+      "date": "January 2026",
+      "title": "Expanded to new areas",
+      "description": "Started feeding street pets in two additional neighborhoods after community requests.",
+      "milestone": false
+    },
+    {
+      "date": "December 2025",
+      "title": "First 1,000 meals",
+      "description": "Celebrated our first 1,000 meals provided to homeless animals. Every purchase matters!",
+      "milestone": true
+    },
+    {
+      "date": "November 2025",
+      "title": "Website launched",
+      "description": "Paws & Hearts went live, beginning our mission to help street cats and dogs through conscious shopping.",
+      "milestone": true
+    }
+  ],
+  "monthlyProgress": {
+    "2026-02": {
+      "raised": 347.20,
+      "goal": 500,
+      "meals": 139,
+      "pets": 42,
+      "purchases": 3
+    },
+    "2026-01": {
+      "raised": 456.80,
+      "goal": 500,
+      "meals": 183,
+      "pets": 58,
+      "purchases": 7
+    }
+  }
+}

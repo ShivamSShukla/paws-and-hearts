@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws & Hearts - Every Purchase Feeds a Street Pet</title>
+    <meta name="description" content="Shop pet products and help feed street cats and dogs. 100% of our Amazon affiliate commissions go directly to feeding homeless pets.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="paw-icon">🐾</span>
+                    <span class="logo-text">Paws & Hearts</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="impact.html">Our Impact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Every Purchase<br>
+                    <span class="highlight">Feeds a Street Pet</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Shop quality pet products while making a real difference. 100% of our Amazon commissions 
+                    go directly to buying food for homeless cats and dogs.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" id="meals-provided">0</div>
+                        <div class="stat-label">Meals Provided</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="pets-helped">0</div>
+                        <div class="stat-label">Pets Helped</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">$<span id="amount-raised">0</span></div>
+                        <div class="stat-label">Raised This Month</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="products.html" class="btn btn-primary">Shop & Help Now</a>
+                    <a href="impact.html" class="btn btn-secondary">See Our Impact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How Your Shopping Helps</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">🛒</div>
+                    <h3>1. You Shop</h3>
+                    <p>Browse our curated selection of quality pet products on Amazon</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon">💰</div>
+                    <h3>2. We Earn</h3>
+                    <p>Amazon pays us a small commission (at no extra cost to you)</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon">🍖</div>
+                    <h3>3. Pets Eat</h3>
+                    <p>100% goes to buying food for street cats and dogs</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-icon">📸</div>
+                    <h3>4. You See Proof</h3>
+                    <p>We share receipts and photos of every meal provided</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Trending Pet Products</h2>
+            <p class="section-subtitle">Popular items that pet lovers are buying right now</p>
+            <div class="products-grid" id="featured-products-grid">
+                <!-- Products loaded dynamically via script.js -->
+                <div class="product-card loading-skeleton"></div>
+                <div class="product-card loading-skeleton"></div>
+                <div class="product-card loading-skeleton"></div>
+                <div class="product-card loading-skeleton"></div>
+            </div>
+            <div class="view-all">
+                <a href="products.html" class="btn btn-primary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <h2 class="section-title">Built on Trust & Transparency</h2>
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <div class="trust-icon">📊</div>
+                    <h3>100% Transparent</h3>
+                    <p>Every penny tracked. Every receipt shared. No hidden costs or administrative fees.</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">🧾</div>
+                    <h3>Real Receipts</h3>
+                    <p>See actual purchase receipts of pet food we buy with your help. Updated weekly.</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">📸</div>
+                    <h3>Photo Evidence</h3>
+                    <p>Watch street pets eating the meals your purchases provided. Real impact, real lives.</p>
+                </div>
+                <div class="trust-card">
+                    <div class="trust-icon">❤️</div>
+                    <h3>No Charity Pressure</h3>
+                    <p>We're not asking for donations. Just shop for your pets, and we'll feed street pets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Impact -->
+    <section class="recent-impact">
+        <div class="container">
+            <h2 class="section-title">Recent Impact Stories</h2>
+            <div class="impact-gallery" id="recent-impact-gallery">
+                <!-- Impact stories loaded dynamically -->
+            </div>
+            <div class="view-all">
+                <a href="impact.html" class="btn btn-secondary">View Full Impact Report</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Paws & Hearts</h3>
+                    <p>Shopping that feeds street pets. One purchase at a time.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Pinterest">📌</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Shop Products</a></li>
+                        <li><a href="impact.html">Our Impact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="impact.html#how-it-works">How It Works</a></li>
+                        <li><a href="impact.html#receipts">View Receipts</a></li>
+                        <li><a href="impact.html#gallery">Photo Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Transparency</h4>
+                    <p>We are an Amazon Associate. When you purchase through our links, Amazon pays us a commission at no extra cost to you. 100% of commissions feed street pets.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Paws & Hearts. Made with ❤️ for street cats and dogs.</p>
+                <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

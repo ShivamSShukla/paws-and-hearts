@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Impact - Paws & Hearts</title>
+    <meta name="description" content="See how your purchases feed street cats and dogs. View receipts, photos, and real impact.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="paw-icon">🐾</span>
+                    <span class="logo-text">Paws & Hearts</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="impact.html" class="active">Our Impact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Impact Hero -->
+    <section class="impact-hero">
+        <div class="container">
+            <h1>Real Impact. Real Transparency.</h1>
+            <p>Every penny tracked. Every meal documented. See exactly how your shopping helps street pets.</p>
+        </div>
+    </section>
+
+    <!-- Impact Stats Dashboard -->
+    <section class="impact-dashboard">
+        <div class="container">
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <div class="card-icon">💰</div>
+                    <div class="card-content">
+                        <h3>$<span id="total-raised">0</span></h3>
+                        <p>Total Raised</p>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">🍖</div>
+                    <div class="card-content">
+                        <h3><span id="meals-provided">0</span></h3>
+                        <p>Meals Provided</p>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">🐾</div>
+                    <div class="card-content">
+                        <h3><span id="pets-helped">0</span></h3>
+                        <p>Pets Helped</p>
+                    </div>
+                </div>
+                <div class="dashboard-card">
+                    <div class="card-icon">📦</div>
+                    <div class="card-content">
+                        <h3><span id="purchases-made">0</span></h3>
+                        <p>Food Purchases Made</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monthly Progress -->
+    <section class="monthly-progress">
+        <div class="container">
+            <h2 class="section-title">This Month's Progress</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" id="monthly-progress-fill" style="width: 0%"></div>
+            </div>
+            <p class="progress-text">
+                <span id="month-raised">$0</span> raised of <span id="month-goal">$500</span> monthly goal
+                <span class="progress-percentage">(<span id="progress-percent">0</span>%)</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Purchase Receipts -->
+    <section class="receipts-section" id="receipts">
+        <div class="container">
+            <h2 class="section-title">Purchase Receipts</h2>
+            <p class="section-subtitle">Every receipt from pet food we've bought with your help</p>
+            <div class="receipts-grid" id="receipts-grid">
+                <!-- Receipts loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="photo-gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Meet the Pets You've Helped</h2>
+            <p class="section-subtitle">Real photos of street cats and dogs enjoying their meals</p>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Gallery loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Timeline -->
+    <section class="impact-timeline">
+        <div class="container">
+            <h2 class="section-title">Our Journey</h2>
+            <div class="timeline" id="impact-timeline">
+                <!-- Timeline events loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Detail -->
+    <section class="how-it-works-detail" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How Your Shopping Creates Impact</h2>
+            <div class="detail-grid">
+                <div class="detail-card">
+                    <div class="detail-number">01</div>
+                    <h3>You Shop on Amazon</h3>
+                    <p>Browse our curated products or use our links to shop anything on Amazon. No extra cost to you.</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-number">02</div>
+                    <h3>Amazon Pays Commission</h3>
+                    <p>As an Amazon Associate, we earn a small percentage (typically 1-4%) when you make a purchase.</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-number">03</div>
+                    <h3>We Buy Pet Food</h3>
+                    <p>100% of commissions go directly to purchasing quality pet food from local suppliers.</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-number">04</div>
+                    <h3>Street Pets Eat</h3>
+                    <p>We distribute food to known street cat and dog communities in our area.</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-number">05</div>
+                    <h3>We Document Everything</h3>
+                    <p>Photos, receipts, and tracking data uploaded here for full transparency.</p>
+                </div>
+                <div class="detail-card">
+                    <div class="detail-number">06</div>
+                    <h3>You See Real Impact</h3>
+                    <p>Watch as your shopping directly translates to meals for animals in need.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Paws & Hearts</h3>
+                    <p>Shopping that feeds street pets. One purchase at a time.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Pinterest">📌</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Shop Products</a></li>
+                        <li><a href="impact.html">Our Impact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="impact.html#how-it-works">How It Works</a></li>
+                        <li><a href="impact.html#receipts">View Receipts</a></li>
+                        <li><a href="impact.html#gallery">Photo Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Transparency</h4>
+                    <p>We are an Amazon Associate. When you purchase through our links, Amazon pays us a commission at no extra cost to you. 100% of commissions feed street pets.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Paws & Hearts. Made with ❤️ for street cats and dogs.</p>
+                <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

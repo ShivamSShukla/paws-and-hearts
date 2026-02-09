@@ -1,0 +1,28 @@
+{
+  "name": "paws-and-hearts",
+  "version": "1.0.0",
+  "description": "Amazon affiliate website that helps feed street cats and dogs",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "keywords": [
+    "pet",
+    "charity",
+    "amazon",
+    "affiliate",
+    "street-pets",
+    "cats",
+    "dogs"
+  ],
+  "author": "Paws & Hearts",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}

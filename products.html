@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Pet Products - Paws & Hearts</title>
+    <meta name="description" content="Browse trending pet products. Every purchase feeds street cats and dogs.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="paw-icon">🐾</span>
+                    <span class="logo-text">Paws & Hearts</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Shop</a></li>
+                    <li><a href="impact.html">Our Impact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Shop Quality Pet Products</h1>
+            <p>Every purchase helps feed a street cat or dog. No extra cost to you.</p>
+            <div class="impact-banner">
+                <span>🎉 Together we've provided <strong id="total-meals-banner">0</strong> meals to street pets!</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filters & Search -->
+    <section class="products-filters">
+        <div class="container">
+            <div class="filters-bar">
+                <div class="search-box">
+                    <input type="text" id="product-search" placeholder="Search products...">
+                    <button class="search-btn">🔍</button>
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All Products</button>
+                    <button class="filter-btn" data-category="cat">For Cats 🐱</button>
+                    <button class="filter-btn" data-category="dog">For Dogs 🐶</button>
+                    <button class="filter-btn" data-category="toys">Toys</button>
+                    <button class="filter-btn" data-category="food">Food & Treats</button>
+                    <button class="filter-btn" data-category="accessories">Accessories</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-info">
+                <p class="products-count"><span id="products-count">0</span> products found</p>
+                <div class="sort-dropdown">
+                    <select id="sort-products">
+                        <option value="trending">Most Popular</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="rating">Highest Rated</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid" id="products-grid">
+                <!-- Products loaded dynamically -->
+            </div>
+
+            <div class="no-products" id="no-products" style="display: none;">
+                <div class="no-products-icon">🔍</div>
+                <h3>No products found</h3>
+                <p>Try adjusting your filters or search terms</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Paws & Hearts</h3>
+                    <p>Shopping that feeds street pets. One purchase at a time.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Pinterest">📌</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Shop Products</a></li>
+                        <li><a href="impact.html">Our Impact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="impact.html#how-it-works">How It Works</a></li>
+                        <li><a href="impact.html#receipts">View Receipts</a></li>
+                        <li><a href="impact.html#gallery">Photo Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Transparency</h4>
+                    <p>We are an Amazon Associate. When you purchase through our links, Amazon pays us a commission at no extra cost to you. 100% of commissions feed street pets.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Paws & Hearts. Made with ❤️ for street cats and dogs.</p>
+                <p class="disclaimer">As an Amazon Associate, we earn from qualifying purchases.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
